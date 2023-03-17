@@ -17,7 +17,6 @@ if (isset($_SESSION['loggedin']) == TRUE)  {
     template_nav(0);
 }
 
-
 // ---------------  MAIN PHP ---------------
 
 // Connexion PDO
@@ -67,7 +66,6 @@ if (!empty($_POST)) {
         <?php endif; ?>
     </div>
 </main>
-
 
 <?php
 // --------------- FOOTER -----------------
